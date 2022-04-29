@@ -1,0 +1,41 @@
+*{
+	font-weight: bold;
+}
+body{
+	display: flex;
+	justify-content: left;
+	align-items: left;
+}
+.formcontainer{
+	border: 1px solid black;
+	width: 500px;
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+	background-color: lightblue;
+	
+
+}
+.header img{
+	/*border: 1px solid black;*/
+	width: 500px;
+	height: 70px;
+	background-size: cover;
+	padding: -5px;
+}
+@media screen and (max-width: 530px){
+	body{
+		display: flex;
+		flex-direction: column;
+	}
+	.header img{
+		width: 300px;
+	}
+	.formcontainer textarea{
+		columns: 30px;
+	}
+
+
+
+
+
+}
